@@ -95,7 +95,8 @@ echo 'import Solution
 
 The workflow [`.github/workflows/palomar-preflight.yml`](.github/workflows/palomar-preflight.yml)
 runs Palomar's reusable verifier (pinned to a full PalomarSubmission commit) as an advisory
-preflight on every push to `main`.
+preflight on every push to `main`, using the GitHub-hosted `palomar-standard-v1` execution
+profile (Palomar's default profile requires a Namespace runner).
 
 ## Palomar entry
 
